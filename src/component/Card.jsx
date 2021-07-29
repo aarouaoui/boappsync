@@ -91,8 +91,7 @@ class Card extends Component {
                         onChange={this.handleChange}
                     ></textarea>   
                 </div>
-             
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <input name="create-card" type="submit" value="Submit"/>
             </form>
         )
     }
